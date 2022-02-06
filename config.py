@@ -227,6 +227,8 @@ To set up the files from a channel as STARTUP_STREAM, so that the files will be 
 
 Note that for public channels you should use username of channels along with '@' and for private channels you should use channel id.
 For private channels , make sure both the bot and USER account is a member of channel.__
+
+** Dont worry, You cant play videos as long as it is restricted to. Make your own bot**
 """
     SETTINGS_HELP="""
 **You can easily customize you player as per you needs. The following configurations are available:**
@@ -388,8 +390,6 @@ Tip: __You can easily change the CHAT config by adding the user account and bot 
 
 6. `STARTUP_STREAM` : __This will be streamed on startups and restarts of bot. 
 You can use either any STREAM_URL or a direct link of any video or a Youtube Live link. 
-You can also use YouTube Playlist.Find a Telegram Link for your playlist from [PlayList Dumb](https://telegram.dog/DumpPlaylist) or get a PlayList from [PlayList Extract](https://telegram.dog/GetAPlaylistbot). 
-The PlayList link should in form `https://t.me/DumpPlaylist/xxx`
 You can also use the files from a channel as startup stream. For that just use the channel id or channel username of channel as STARTUP_STREAM value.
 For more info on channel play , read help from player section.__
 
@@ -439,5 +439,8 @@ For more info on channel play , read help from player section.__
 17. `BITRATE` : __Bitrate of audio (Not recommended to change).__
 
 18. `FPS` : __Fps of video to be played (Not recommended to change.)__
+
+
+**You cant edit the vars as long as you are not a admin of my bot**
 
 """
