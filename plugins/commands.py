@@ -129,8 +129,8 @@ async def start(client, message):
         return
     buttons = [
         [
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-            InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/VCPlayerBot')
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/check_this_channel'),
+            InlineKeyboardButton('🧩 Source', url='https://github.com/geronimolover/VCPlayerBot1')
         ],
         [
             InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help_main'),
@@ -188,8 +188,8 @@ async def show_help(client, message):
 async def repo_(client, message):
     buttons = [
         [
-            InlineKeyboardButton('🧩 Repository', url='https://github.com/subinps/VCPlayerBot'),
-            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),     
+            InlineKeyboardButton('🧩 Repository', url='https://github.com/geronimolover/VCPlayerBot1'),
+            InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/check_this_channel'),     
         ],
         [
             InlineKeyboardButton("🎞 How to Deploy", url='https://youtu.be/mnWgZMrNe_0'),
@@ -378,6 +378,7 @@ async def set_heroku_var(client, message):
                 else:
                     await db.edit_config("RESTART", msg)
             config[var] = str(value)
+
 
 
 
